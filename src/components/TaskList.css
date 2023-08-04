@@ -1,0 +1,27 @@
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+tr{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+table, th,td {
+    border: 1px solid #dee2e6;
+}
+
+td{
+    display: flex;
+    align-items: center ;
+    padding: 10px;
+}
+
+
+.delbtn{
+    color: #dc3545;
+    border: 1px solid #dc3545;
+    background-color: #fff;
+}

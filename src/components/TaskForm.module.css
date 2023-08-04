@@ -1,0 +1,40 @@
+
+.flex{
+    display: flex;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+.container>div{
+    margin: 10px;
+}
+
+.form_control{
+    display: block;
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color:#fff;
+    background-clip: padding-box;
+    border: 1px solid #dee2e6;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 0.5rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+
+
+
+.button{
+    border: 1px solid #dee2e6;
+    background-color: #405cd4;
+    color: #fff;
+}
